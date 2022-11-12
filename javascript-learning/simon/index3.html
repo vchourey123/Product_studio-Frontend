@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    
+    <div>
+      <div onclick="panelClicked(event.currentTarget)"class="panel top-left-panel"></div>
+      <div onclick="panelClicked(event.currentTarget)" class="panel top-right-panel"></div>
+    </div>
+    
+      
+    <div>
+      <div onclick="panelClicked(event.currentTarget)" class="panel bottom-left-panel"></div>
+      <div onclick="panelClicked(event.currentTarget)" class="panel bottom-right-panel"></div>
+    </div>
+    <br><br><br>
+
+    <button onclick="start()">START</button>
+    <button onclick="reset()">RESET</button>
+    <br><br> <br>
+    <div id="text"></div>
+    
+    <audio src="arcaderetro.wav" id="yellow" class="panel top-left-panel"></audio>
+    <audio src="drum.wav" id="green" class="panel top-right-panel"></audio> 
+    <audio src="retrogame.wav" id="blue" class="panel bottom-left-panel"></audio>
+    <audio src="sweeptransition.wav" id="red" class="panel bottom-right-panel"></audio>
+
+    <script src="script3.js"></script>
+  </body>
+</html>

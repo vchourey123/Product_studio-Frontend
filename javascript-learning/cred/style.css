@@ -1,0 +1,663 @@
+@font-face {
+  font-family: gilroy-regular;
+  src: url(Gilroy-Regular.woff);
+
+
+}
+@font-face {
+  font-family: gilroy-bold;
+  src: url(Gilroy-Bold.woff);
+}
+@font-face {
+  font-family: gilroy-heavy;
+  src: url(Gilroy-Heavy.woff);
+}
+@font-face {
+  font-family: gilroy-light;
+  src: url(Gilroy-Light.woff);
+}
+@font-face {
+  font-family: gilroy-medium;
+  src: url(Gilroy-Medium.woff);
+}
+body {
+  
+  font-family: gilroy-regular;
+  font-variant-ligatures: none;
+  min-height: 100vh;
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-top: env(safe-area-inset-top);
+  overflow-x: hidden;
+}
+
+.top{
+  display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+.download{
+  padding: 60px 50px 100px
+}
+
+*{
+  box-sizing: border-box;
+}
+.credoptions{
+  
+    padding: 8px 0px;
+    position: relative;
+
+}
+.flex-right {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.credscore > a {
+  color: rgb(253, 249, 249);
+  opacity: 0.8;
+  font-family: gilroy-regular ;
+  font-size: 18px;
+  line-height: 36px;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+a:link {
+  text-decoration: none;
+}
+
+.credpay > a {
+  color: rgb(253, 249, 249);
+  opacity: 0.8;
+  font-family: gilroy-regular;
+  font-size: 18px;
+  line-height: 36px;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+
+.statement-rewards {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(253, 249, 249);
+
+}
+.rewards {
+  font-size: 55px;
+  font-family: gilroy-bold;
+  letter-spacing: -1.65px;
+  line-height: 47.5px;
+  text-align: left;
+  white-space: inherit;
+  width: 270px;
+}
+
+.join {
+  font-size: 16px;
+  font-family: gilroy-semibold;
+  letter-spacing: 0px;
+  line-height: 22px;
+  white-space: pre-line;
+  width: 270px;
+  text-align: left;
+}
+
+
+.button-to-download {
+  margin-top: 58px;
+  display: inline-flex;
+  white-space: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  pointer-events: auto;
+  text-align: center;
+  padding: 20px 65px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-family: "gilroy-bold";
+ 
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.animate-mobile{
+  background-color: rgb(15, 15, 15);
+  width: 100vw;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png");
+  background-size: cover;
+  background-position: right top;
+}
+.mobiles {
+  min-height: 70%;
+}
+.mobile{
+  
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+  
+  
+}
+
+
+.pink-section {
+  padding: 100px;
+  background-position: center bottom;
+}
+.pink-section {
+  background-color: rgb(238, 47, 76);
+  color: rgb(248, 248, 248);
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  padding: 240px 200px 180px;
+  background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+}
+.pink-statement-1 {
+  white-space: initial;
+  max-width: 670px;
+}
+.pink-statement-1 {
+  font-size: 100px;
+  font-family: "gilroy-bold";
+  letter-spacing: -3.15px;
+  line-height: 96px;
+  white-space: pre-line;
+  opacity: 0.9;
+}
+.pink-statement-2 {
+  font-size: 32px;
+  font-family: "gilroy-bold";
+  letter-spacing: -0.2px;
+  line-height: 38px;
+  white-space: pre-line;
+  max-width: 630px;
+  margin-top: 16px;
+}
+.pink-statement-3 {
+  font-size: 18px;
+  font-family: "gilroy-semibold";
+  letter-spacing: 0px;
+  line-height: 28px;
+  white-space: pre-line;
+  max-width: 630px;
+  margin-bottom: 40px;
+}
+.Explore-rewards-button {
+  display: inline-flex;
+  white-space: nowrap;
+  -moz-box-align: center;
+  align-items: center;
+  position: relative;
+  pointer-events: auto;
+  text-align: center;
+  padding: 20px 65px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-family: "gilroy-bold";
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.brands {
+  padding: 60px 100px;
+}
+.brands {
+  background-color: rgb(248, 248, 248);
+  color: rgb(33, 36, 38);
+  width: 100vw;
+  position: relative;
+  padding: 60px 200px;
+}
+.brands-statement-box {
+  display: flex;
+  align-items: flex-end;
+}
+.brands-statement{
+  font-size: 24px;
+  font-family: "gilroy-semibold";
+  letter-spacing: 0px;
+  line-height: 38px;
+  white-space: pre-line;
+}
+.brands-mentioned-image {
+  background-image: url("brands/brands-desktop.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  height: 50px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+
+div.first {
+  background-size: auto;
+  height:1500px; /*height of your image*/
+  background-image:url('./first-backgorund-image/video-bg.png');
+  margin:0; /* If you want no margin */
+  padding:0; /*if your want to padding */
+}
+div.second {
+  background-size: auto;
+  height:1000px; /*height of your image*/
+  background-image:url('./pink/deserve-more-bg.jpg');
+  margin:0; /* If you want no margin */
+  padding:0; /*if your want to padding */
+}
+div.third {
+  background-size: auto;
+  height:300px; /*height of your image*/
+  background-image:url('./brands/brands-mobile.png');
+  margin:0; /* If you want no margin */
+  padding:0; /*if your want to padding */
+}
+div.fourth {
+  background-size: auto;
+  height:800px; /*height of your image*/
+  background-image:url('./blue/money-matters-bg.jpg');
+  margin:0; /* If you want no margin */
+  padding:0; /*if your want to padding */
+}
+
+
+
+
+
+.purple{
+  
+    background-color: rgb(90, 30, 203);
+    color: rgb(248, 248, 248);
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    background-image:url('./purple/security-bg.jpg');
+    padding: 240px 200px 180px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+  
+
+}
+.purple-statement-1 {
+  white-space: initial;
+  max-width: 670px;
+}
+.purple-statement-1 {
+  font-size: 100px;
+  font-family: "gilroy-bold";
+  letter-spacing: -3.15px;
+  line-height: 96px;
+  white-space: pre-line;
+  opacity: 0.9;
+}
+.purple-statement-2 {
+  font-size: 32px;
+  font-family: "gilroy-bold";
+  letter-spacing: -0.2px;
+  line-height: 38px;
+  white-space: pre-line;
+  max-width: 630px;
+  margin-top: 16px;
+}
+.purple-statement-3 {
+  font-size: 18px;
+  font-family: "gilroy-semibold";
+  letter-spacing: 0px;
+  line-height: 28px;
+  white-space: pre-line;
+  max-width: 630px;
+  margin-bottom: 40px;
+}
+.member-button{
+  
+    display: inline-flex;
+    white-space: nowrap;
+    -moz-box-align: center;
+    align-items: center;
+    position: relative;
+    pointer-events: auto;
+    text-align: center;
+    padding: 20px 65px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: "gilroy-bold";
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    border-radius: 40px;
+    cursor: pointer;
+  
+
+}
+
+.green-section {
+  padding: 200px 100px;
+}
+.green-section {
+  background-color: rgb(2, 119, 87);
+  color: rgb(248, 248, 248);
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  padding: 240px 200px 250px;
+  background-image: url("green/trust-bg.jpg");
+  background-size: cover;
+  background-position: right bottom;
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+}
+.green {
+  display: flex;
+  flex-direction: column;
+  -moz-box-pack: end;
+  justify-content: flex-end;
+  width: 50%;
+}
+.green-statement-1 {
+  font-size: 60px;
+  font-family: "gilroy-bold";
+  letter-spacing: -1.15px;
+  line-height: 64px;
+  white-space: pre-line;
+  opacity: 0.9;
+}
+.green-statements {
+  width: 50%;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  -moz-box-pack: end;
+  justify-content: flex-end;
+}
+.green-statement-2 {
+  font-size: 18px;
+  font-family: "gilroy-regular";
+  letter-spacing: 0px;
+  line-height: 28px;
+  margin-top: 20px;
+  max-width: 550px;
+}
+.green-statement-3 {
+  font-size: 18px;
+  font-family: "gilroy-regular";
+  letter-spacing: 0px;
+  line-height: 28px;
+  margin-top: 20px;
+  max-width: 550px;
+}
+.green-statement-4 {
+  font-size: 18px;
+  font-family: "gilroy-regular";
+  letter-spacing: 0px;
+  line-height: 28px;
+  margin-top: 20px;
+  max-width: 550px;
+}
+
+div.seventh {
+  background-size: auto;
+  height:1000px; /*height of your image*/
+  background-image:url('./purple/security-bg.jpg');
+  margin:0; /* If you want no margin */
+  padding:0; /*if your want to padding */
+}
+div.eighth{
+  background-size: auto;
+  height:864.4px; /*height of your image*/
+  background-image:url('./green/trust-bg.jpg');
+  margin:0; /* If you want no margin */
+  padding:0; /*if your want to padding */
+}
+
+
+.ratingscomments-section {
+  padding: 100px 60px;
+}
+.ratingscomments-section  {
+  display: flex;
+  background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png");
+  background-position: right top;
+  background-size: cover;
+  position: relative;
+  z-index: 20;
+}
+.ratingscomments-div {
+  padding: 0px;
+}
+.ratingscomments-div{
+  color: rgb(255, 255, 255);
+  padding: 200px;
+  font-family: "gilroy-bold";
+  white-space: pre-line;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.ratings-div {
+  justify-content: space-evenly;
+}
+.ratings-div {
+  display: flex;
+  -moz-box-pack: center;
+  justify-content: center;
+}
+.ratings-palystore-div{
+  padding-right: 35px;
+}
+.ratings-palystore-div {
+  padding-right: 75px;
+}
+.appstore {
+  padding-bottom: 0px;
+}
+.appstore {
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+
+}
+.appstore-rating {
+  font-size: 100px;
+}
+.appstore-rating {
+  font-size: 160px;
+  line-height: 120px;
+  padding-right: 16px;
+  opacity: 0.9;
+}
+.appstore-statement {
+  font-size: 45px;
+  line-height: 45px;
+}
+.appstore-statement {
+  
+  line-height: 55px;
+  padding-left: 16px;
+  color: rgb(236, 233, 234);
+  opacity: 0.9;
+
+    font-size: 45px;
+    line-height: 45px;
+  
+}
+.app-store-rating {
+  padding-bottom: 48px;
+}
+.appstore-rating-img {
+  width: 120px;
+  height: 18px;
+}
+
+.appstore-download {
+  width: 285px;
+}
+.appstore-download {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "gilroy-bold";
+  padding: 15px 0px;
+  width: 310px;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  border-radius: 48px;
+  -moz-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.appstore-img {
+  width: 30px;
+}
+
+
+
+
+
+
+
+
+
+.black-scroll-container {
+    display: flex;
+    background-image: url("./inside-mobile/hero-bg.png");
+    background-size: auto;
+    height:500px;
+    
+    transition: height 2s;
+
+  }
+  
+  .black-scroll-container > div.text-scroll {
+    
+    color: aliceblue;
+    height: 500px;
+    width: 800px;  
+    text-align: center;
+    overflow-y: auto;
+    transition: height 2s;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  }
+  
+  .black-scroll-container > div.text-scroll ::-webkit-scrollbar {
+    display: none;
+}
+
+.black-scroll-container > div.horizontal-scroll-wrappersquares{
+  color: aliceblue;
+}
+
+@media screen and (max-width: 767px){
+.footer {
+  display: block;
+}
+}
+.footer {
+  background-color: rgb(22, 21, 23);
+  color: rgb(255, 255, 255);
+  z-index: 20;
+  overflow: hidden;
+}
+
+.padding-on-about {
+  margin-bottom: 70px;
+  font-family: gilroy-regular;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.65px;
+  color: rgb(0, 0, 0);
+  opacity: 1;
+}
+@media screen and (max-width: 1279px){         
+
+.about .wrappercontent h2 {
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+}
+}
+
+.scale-up-bottom {
+	-webkit-animation: scale-up-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-11-12 5:34:19
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-up-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-up-bottom {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+}
+@keyframes scale-up-bottom {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+}
+
+
+
+
+
+

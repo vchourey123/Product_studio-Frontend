@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Login Page</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background: #3b5998;
+        }
+
+        #login_form {
+            width: 300px;
+            margin: 0 auto;
+            background: #fff;
+            border: 1px solid #e5e6e9;
+            border-radius: 0 0 3px 3px;
+        }
+
+        #login_form h1 {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #e5e6e9;
+        }
+
+        #login_form form {
+            padding: 10px 20px;
+        }
+
+        #login_form form input[type="text"],
+        #login_form form input[type="password"] {
+            width: 278px;
+            height: 36px;
+            padding: 0 8px;
+            color: #333;
+            border: 1px solid #dcdcdc;
+            border-radius: 3px;
+        }
+
+        #login_form form input[type="submit"] {
+            width: 100%;
+            padding: 10px 0;
+            margin-top: 20px;
+            background: #3b5998;
+            border: 0;
+            color: #fff;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 3px;
+        }
+
+        #login_form form input[type="submit"]:hover {
+            background: #2d4373;
+        }
+    </style>
+</head>
+<body>
+    <div id="login_form">
+        <h1>Log In</h1>
+        <form action="">
+            <input type="text" placeholder="Email Address" />
+            <input type="password" placeholder="Password" />
+            <input type="submit" value="Log In" />
+        </form>
+    </div>
+</body>
+</html>
