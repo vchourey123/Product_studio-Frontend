@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form" >
+        <div>
+        <form >
+        <input type="text" placeholder="Email or Phone Number">
+        <br>
+        <input type="password" placeholder="Password" />
+        <br>
+        <button type="button" id="logIn" onclick="Login()">Log In</button>
+        <br>
+        <a href="" class="forgot-password"> Forgot Password</a>
+        <div class="line"></div><br>
+    
+        </form>
+        
+    </div>
+    <div>
+    <button class="register"  id ="register"  onclick="Register()" > Create New Account</button>
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" >
+        <div class="container">
+          <h2 style="font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;font-size: 32px;">Sign Up</h2>
+          <p style="color: #606770;font-family: SFProText-Regular, Helvetica, Arial, sans-serif;">It's quick and easy.</p>
+          <hr>
+          <span>
+          <input type="text" placeholder="First name" name="First name" required>
+          <input type="text" placeholder="Surname" name="Surame" required>
+          </span>
+          <input type="text" placeholder="Mobile number or email address" name="Mobile number or email address" required>
+          <input type="password" placeholder="New Password" name="psw" required>
+        </div>
+    </form> 
+    </div>
+    <div class="facebook-logo">
+        <img src="Facebook_Logo_(2019).svg.png" alt="facebook">
+        <p>Facebook helps you connect and share with the people in your life</p>
+    </div>
+    </div>
+    <div class="create-page">
+        <h3><a href="">Create a page</a> for a celebrity, band or business.</h3>
+
+    </div>
+
+ <script src="index.js"></script>
+</body>
+</html>
